@@ -133,8 +133,45 @@ const contracts = {
             },
           ],
         },
+        Event: {
+          address: "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+          abi: [
+            {
+              anonymous: false,
+              inputs: [],
+              name: "AnotherLog",
+              type: "event",
+            },
+            {
+              anonymous: false,
+              inputs: [
+                {
+                  indexed: true,
+                  internalType: "address",
+                  name: "sender",
+                  type: "address",
+                },
+                {
+                  indexed: false,
+                  internalType: "string",
+                  name: "message",
+                  type: "string",
+                },
+              ],
+              name: "Log",
+              type: "event",
+            },
+            {
+              inputs: [],
+              name: "test",
+              outputs: [],
+              stateMutability: "nonpayable",
+              type: "function",
+            },
+          ],
+        },
         Function: {
-          address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+          address: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
           abi: [
             {
               inputs: [],
